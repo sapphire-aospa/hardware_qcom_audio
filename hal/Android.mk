@@ -68,6 +68,9 @@ LOCAL_C_INCLUDES += \
     $(call include-path-for, audio-effects) \
     $(LOCAL_PATH)/audio_extn \
     $(TOP)/pal/ipc/HwBinders/pal_ipc_server/inc/
+    $(TOP)/pal/session/inc/
+    $(TOP)/agm_ipc_client/inc/
+    $(TOP)/agm/ipc/HwBiinc/
 
 LOCAL_SRC_FILES := \
     AudioStream.cpp \
